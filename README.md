@@ -2,6 +2,8 @@
 
 Example library demonstrating the new animated Breadcrumb control introduced for window classes in Omnis Studio 10.2.
 
+<img src="breadcrumb.png" width="60%" height="60%" />
+
 ## Contents
 ### breadcrumb
 This folder contains the source JSON files for the Omnis library in Github. 
