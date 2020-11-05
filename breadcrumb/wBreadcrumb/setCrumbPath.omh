@@ -1,0 +1,26 @@
+Do iBreadcrumbList.$clear()
+
+If pCrumb>0
+	Do iBreadcrumbList.$add("Clothing",1,"")
+End If
+
+If pCrumb>1
+	Do iBreadcrumbList.$add("T-Shirts",2,"menu-24px")
+End If
+
+If pCrumb>2
+	If pCrumb=3
+		Do iBreadcrumbList.$add("Can't Click This",30,"")
+	End If
+	Do iBreadcrumbList.$add("Red-T-Shirts",3,"")
+End If
+
+If pCrumb>3
+	Do iBreadcrumbList.$add("With Stripes",4,"")
+End If
+
+If pCrumb>4
+	Do iBreadcrumbList.$add("And dots",5,"")
+End If
+
+Do $cinst.$redraw()

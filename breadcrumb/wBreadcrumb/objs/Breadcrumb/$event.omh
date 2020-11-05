@@ -1,0 +1,4 @@
+On evBreadCrumbPathChanging
+	If pBreadcrumbID=30
+		Quit event handler (Discard event)
+	End If

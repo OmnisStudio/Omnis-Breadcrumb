@@ -1,0 +1,9 @@
+# Enter your initialization code here
+Do iBreadcrumbList.$define(iBreadcrumbText,iBreadcrumbID,iBreadcrumbIconID)
+
+Do iCrumbStyles.$define(iCrumbStyle)
+Do iCrumbStyles.$add(kBreadCrumbStyleRound)
+Do iCrumbStyles.$add(kBreadCrumbStyleArrow)
+Do iCrumbStyles.$add(kBreadCrumbStyleText)
+Do iCrumbStyles.$line.$assign(1)
+Do method setCrumbStyle
